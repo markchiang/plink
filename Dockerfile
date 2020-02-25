@@ -11,3 +11,5 @@ RUN \
 
 ENV PLINK_HOME          /usr/lib/plink
 ENV PATH                $PLINK_HOME:$PATH
+
+RUN apt-get install -y parallel
